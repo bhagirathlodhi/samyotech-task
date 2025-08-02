@@ -33,10 +33,10 @@ public class Book {
     private Integer publicationYear;
 
     @NotBlank(message = "ISBN must not be blank")
-    @Pattern(regexp = "^(97(8|9))?[-]?[\\d]{1,5}[-]?[\\d]{1,7}[-]?[\\d]{1,7}[-]?[\\dX]$", message = "ISBN format is invalid")
     private String isbn;
 
 
 
 
 }
+
